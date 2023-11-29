@@ -6,18 +6,18 @@ public class LookMousePoint : MonoBehaviour
 {
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if (Input.mousePosition.x <Screen.width/2)
+
+        if (Input.mousePosition.x < Screen.width / 2)
         {
             transform.localScale = new Vector2(-1, 1);
         }
-else
+        else
         {
             transform.localScale = new Vector2(1, 1);
         }

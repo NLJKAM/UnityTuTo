@@ -6487,6 +6487,8 @@ GameObject:
   - component: {fileID: 2005234019}
   - component: {fileID: 2005234023}
   - component: {fileID: 2005234024}
+  - component: {fileID: 2005234025}
+  - component: {fileID: 2005234026}
   m_Layer: 0
   m_Name: Penguin
   m_TagString: Untagged
@@ -6656,6 +6658,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0e6a5cf6f981e04e9c43a75baa22d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &2005234025
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005234018}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5cc01dfe9a8277b46bf0f0a392e15825, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2005234026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005234018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c678aa283ac2b344a074961ca425d02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2097209150
